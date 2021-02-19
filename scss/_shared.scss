@@ -1,0 +1,61 @@
+// Links
+a {
+    color: $muted-color;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+// Lists
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+// Heading Container
+.heading-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+// Section Headers
+.section-header {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: $secondary-color;
+    line-height: 50px;
+}
+
+// Section Paragraphs
+.section-text {
+    color: $muted-color;
+}
+
+// Images
+.img-container {
+    width: 100%;
+    height: 400px;
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// Features
+.feature-list {
+
+    .feature {
+        padding-top: .9em;
+        color: $muted-color;
+
+        .agree {
+            color: $features-green;
+            padding-right: .5em;
+        }
+    }
+}

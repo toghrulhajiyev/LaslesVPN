@@ -1,0 +1,261 @@
+a {
+  color: #4F5665; }
+  a:hover {
+    text-decoration: none; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.heading-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; }
+
+.section-header {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #0B132A;
+  line-height: 50px; }
+
+.section-text {
+  color: #4F5665; }
+
+.img-container {
+  width: 100%;
+  height: 400px; }
+  .img-container img {
+    width: 100%;
+    height: 100%; }
+
+.feature-list .feature {
+  padding-top: .9em;
+  color: #4F5665; }
+  .feature-list .feature .agree {
+    color: #2FAB73;
+    padding-right: .5em; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Rubik", sans-serif; }
+
+#header .logIn .sign-up, #main #plans .plan .btn-wrapper .plan-btn, #main #plans .plan-primary .btn-wrapper .plan-btn {
+  font-weight: 500;
+  color: #7F67CE;
+  border: 1px solid #7F67CE;
+  border-radius: 50px;
+  padding: 0.8em 2.8em;
+  transition: all .3s linear; }
+  #header .logIn .sign-up:hover, #main #plans .plan .btn-wrapper .plan-btn:hover, #main #plans .plan-primary .btn-wrapper .plan-btn:hover {
+    color: #fff;
+    background-color: #7F67CE; }
+
+#main #showcase .showcase-content .showcase-btn, #main #plans .plan-primary .plan-btn-primary, #footer #subscription .subscribe-btn {
+  font-weight: 500;
+  color: #fff;
+  background-color: #7F67CE;
+  border: 1px solid #7F67CE;
+  border-radius: 50px;
+  padding: 0.8em 2.8em;
+  box-shadow: 0px 20px 50px 0px rgba(13, 16, 37, 0.27);
+  transition: all .3s linear; }
+  #main #showcase .showcase-content .showcase-btn:hover, #main #plans .plan-primary .plan-btn-primary:hover, #footer #subscription .subscribe-btn:hover {
+    color: #7F67CE;
+    background-color: #fff; }
+
+#header {
+  padding: 2em 0; }
+  #header .navbar .nav-menu {
+    display: flex;
+    justify-content: center;
+    height: 2.3em;
+    align-items: center; }
+    #header .navbar .nav-menu .nav-item {
+      padding: 0 1.5em; }
+  #header .logIn {
+    display: flex;
+    height: 2.3em;
+    align-items: center; }
+    #header .logIn .sign-in {
+      font-weight: 500;
+      color: #0B132A;
+      padding-right: 1em; }
+
+#main #showcase {
+  padding: 3.75em 0; }
+  #main #showcase .showcase-content {
+    padding: 3em 0; }
+    #main #showcase .showcase-content .showcase-header {
+      font-size: 3em;
+      color: #0B132A;
+      font-weight: 500;
+      line-height: 70px;
+      margin-bottom: 1.25rem; }
+    #main #showcase .showcase-content .showcase-text {
+      color: #4F5665;
+      margin-bottom: 3em; }
+    #main #showcase .showcase-content .showcase-btn {
+      border-radius: 10px; }
+#main #advantages .advantages-content {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 3em 0;
+  box-shadow: 0px 20px 50px 0px rgba(13, 16, 37, 0.27); }
+  #main #advantages .advantages-content .advantage {
+    display: flex;
+    justify-content: center; }
+    #main #advantages .advantages-content .advantage img {
+      padding-right: 0.6em; }
+    #main #advantages .advantages-content .advantage .advantage-content .advantage-text {
+      margin-bottom: 0;
+      font-size: 1.25em; }
+#main #features {
+  padding: 3.75em 0; }
+  #main #features .features-content {
+    padding: 3em 0; }
+#main #plans {
+  background-color: #FBFBFB;
+  padding: 5em 0; }
+  #main #plans .heading-container {
+    margin-bottom: 3.75em; }
+  #main #plans .plan, #main #plans .plan-primary {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 3.75em 4.375em;
+    text-align: center; }
+    #main #plans .plan .plan-heading img, #main #plans .plan-primary .plan-heading img {
+      margin-bottom: 1em; }
+    #main #plans .plan .feature-list, #main #plans .plan-primary .feature-list {
+      margin-bottom: 8em; }
+    #main #plans .plan .btn-wrapper .plan-btn, #main #plans .plan-primary .btn-wrapper .plan-btn {
+      padding: 0.8em 4.3em; }
+  #main #plans .plan-primary {
+    border: 2px solid #7F67CE; }
+    #main #plans .plan-primary .feature-list {
+      margin-bottom: 3.3em; }
+    #main #plans .plan-primary .plan-btn-primary {
+      padding: 0.8em 4.3em; }
+#main #map {
+  background-color: #FBFBFB;
+  padding: 5em 0; }
+  #main #map .heading-container {
+    text-align: center;
+    margin-bottom: 9.6em; }
+#main #companies {
+  background-color: #FBFBFB;
+  padding: 3em 0; }
+#main #reviews {
+  background-color: #FBFBFB;
+  padding: 5em 0 10em; }
+  #main #reviews .heading-container {
+    margin-bottom: 3.7em; }
+  #main #reviews .review {
+    border: 2px solid #ddd;
+    padding: 1.8em; }
+    #main #reviews .review .customer_star {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 0;
+      align-items: center; }
+      #main #reviews .review .customer_star .customer-info {
+        display: flex; }
+        #main #reviews .review .customer_star .customer-info img {
+          padding-right: 1.2em; }
+      #main #reviews .review .customer_star .rate-star {
+        color: #FEA250; }
+    #main #reviews .review p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden; }
+
+#footer {
+  background-color: #F8F8F8;
+  padding: 5em 0; }
+  #footer #subscription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px 50px;
+    box-shadow: 0px 20px 50px 0px rgba(13, 16, 37, 0.27);
+    border-radius: 10px;
+    position: relative;
+    bottom: 200px; }
+    #footer #subscription .subscribe-btn {
+      border-radius: 10px; }
+  #footer #footer-contents .footer-logo {
+    margin-bottom: 1.25em; }
+  #footer #footer-contents .copyright {
+    color: #4F5665; }
+  #footer #footer-contents .footer-content-header {
+    margin-bottom: 20px; }
+  #footer #footer-contents .menu-list li {
+    margin-bottom: 10px; }
+
+@media screen and (max-width: 767px) {
+  #header {
+    padding: 2em 0; }
+    #header .navbar .nav-menu {
+      display: flex;
+      justify-content: flex-start;
+      height: 2.3em;
+      align-items: center;
+      margin-bottom: 1em; }
+      #header .navbar .nav-menu .nav-item {
+        padding: 0 1em 0 0; }
+        #header .navbar .nav-menu .nav-item a {
+          font-size: 0.9em; }
+
+  #main #advantages .advantages-content .advantage {
+    padding: 1em 0; }
+  #main #plans {
+    background-color: #FBFBFB;
+    padding: 5em 0; }
+    #main #plans .plan, #main #plans .plan-primary {
+      margin-top: 1.5em; }
+  #main #companies .company-container {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0; }
+  #main #reviews .review {
+    margin-top: 1.5em; }
+
+  #footer {
+    background-color: #F8F8F8;
+    padding: 5em 0; }
+    #footer #subscription {
+      display: flex;
+      flex-direction: column; }
+      #footer #subscription .heading {
+        text-align: center; }
+        #footer #subscription .heading .section-header {
+          font-size: 1.6em; } }
+@media screen and (max-width: 991px) {
+  #header {
+    padding: 2em 0; }
+    #header .navbar .nav-menu {
+      display: flex;
+      justify-content: flex-start;
+      height: 2.3em;
+      align-items: center;
+      margin: 1em 0; }
+      #header .navbar .nav-menu .nav-item {
+        padding: 0 1em 0 0; }
+
+  #main #advantages .advantages-content .advantage {
+    padding: 1em 0; }
+  #main #plans .plan, #main #plans .plan-primary {
+    margin-top: 1.5em; }
+  #main #reviews .review {
+    margin-top: 1.5em; } }
+
+/*# sourceMappingURL=style.css.map */
